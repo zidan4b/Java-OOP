@@ -6,14 +6,14 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mycompany</groupId>
-    <artifactId>Zidan.Bakari.Lab1</artifactId>
+    <artifactId>Zidan.Bakari</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>25</maven.compiler.release>
-        <exec.mainClass>com.mycompany.zidan.bakari.lab1.Main</exec.mainClass>
+        <exec.mainClass>com.mycompany.zidan.bakari.Main</exec.mainClass>
     </properties>
 
     <dependencies>
