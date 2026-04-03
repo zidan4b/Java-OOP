@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Algonquin Course Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Algonquin Course Registration</h1>
+            <p>Register for a course or view all course registrations.</p>
+
+            <form action="register" method="post">
+                <label for="studentName">Student Name</label>
+                <input type="text" id="studentName" name="studentName" placeholder="Enter your full name" required>
+
+                <label for="studentId">Student ID</label>
+                <input type="text" id="studentId" name="studentId" placeholder="e.g. 040100003" required>
+
+                <label for="courseCode">Course Code</label>
+                <input type="text" id="courseCode" name="courseCode" placeholder="e.g. CST8288" required>
+
+                <label for="semester">Semester</label>
+                <input type="text" id="semester" name="semester" placeholder="e.g. Winter 2026" required>
+
+                <button type="submit">Register</button>
+            </form>
+
+            <form action="viewRegistrations" method="get">
+                <button type="submit" class="secondary">View All Registrations</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
