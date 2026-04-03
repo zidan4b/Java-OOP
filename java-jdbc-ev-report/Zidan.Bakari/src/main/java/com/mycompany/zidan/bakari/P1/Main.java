@@ -1,7 +1,5 @@
-package com.mycompany.zidan.bakari.lab1;
+package com.mycompany.zidan.bakari;
 /*Zidan Bakari
-0411406334
-Lab1
 */
 import java.io.InputStream;
 import java.sql.*;
