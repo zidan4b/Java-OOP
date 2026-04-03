@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 /**
- * Lab 1 main program. Connects to MySQL, runs a join query, prints metadata,
+ * Main class  program Connects to MySQL, runs a join query, prints metadata,
  * prints rows, and totals BEV/PHEV/TotalEV in one pass.
  */
 public class Main {
